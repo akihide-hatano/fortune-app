@@ -13,4 +13,20 @@ public class Fortune {
         this.luckyColor = luckColor;
         this.luckyItem = luckyItem;
     }
+
+    public String getName(){
+        return name;
+    }
+
+    public String getMessage(){
+        return message;
+    }
+
+    public String getLuckColor(){
+        return luckyColor;
+    }
+
+    public String getLuckyItem(){
+        return luckyItem;
+    }
 }
