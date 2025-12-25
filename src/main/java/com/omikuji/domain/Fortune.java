@@ -29,4 +29,11 @@ public class Fortune {
     public String getLuckyItem(){
         return luckyItem;
     }
+
+    public String label(){
+        return String.format(
+            "【%s】%s (ラッキーカラー: %s / ラッキーアイテム: %s)",
+            name, message, luckyColor, luckyItem
+        );
+    }
 }
