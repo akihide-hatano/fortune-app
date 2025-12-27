@@ -1,4 +1,5 @@
 com/omikuji/domain/Fortune.class
+com/omikuji/domain/PremiumOmikujiGenerator.class
 com/omikuji/app/OmikujiRunner.class
 com/omikuji/App.class
 com/omikuji/domain/SimpleOmikujiGenerator.class
