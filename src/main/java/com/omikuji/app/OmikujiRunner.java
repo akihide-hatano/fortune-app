@@ -13,12 +13,12 @@ public class OmikujiRunner {
     }
 
     public void run(){
-        Scanner scanner = new Scanner(System.in);
-
         System.out.println("=== おみくじアプリ === ");
         System.out.print("Enterキーでおみくじを引きます");
 
-        scanner.nextLine();
+        try(Scanner scanner = new Scanner(System.in)){
+            scanner.nextLine();
+        };
 
         Fortune f = generator.draw();
         System.out.println(f.label());
