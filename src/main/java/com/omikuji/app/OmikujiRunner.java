@@ -21,6 +21,6 @@ public class OmikujiRunner {
         scanner.nextLine();
 
         Fortune f = generator.draw();
-        System.out.println("【結果】→"+f.getMessage());
+        System.out.println(f.label());
     }
 }
